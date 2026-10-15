@@ -10,7 +10,7 @@
 
 * **Usuario de GitHub:** [David89787](https://github.com/David89787)
 
-* **Palabra del día**: metas
+* **Palabra del día**: meta
 
 ## 📌 Tema del proyecto
 
@@ -18,7 +18,10 @@
 
 ### ¿Por qué he elegido este tema?
 
-\[Escribe aquí entre 3 y 4 líneas explicando el motivo de tu elección con tus propias palabras. Por ejemplo: He elegido este tema porque desde pequeño me ha apasionado este ámbito y conozco muchos detalles sobre sus elementos. Además, considero que es un tema muy amplio que me permitirá estructurar información diversa en listas y datos en XML a lo largo del curso.\]
+\[He elegido el Sevilla FC para hacer mi página web porque es uno de los equipos más importantes de Sevilla y tiene una gran historia en el fútbol español.
+Además, cuenta con una afición apasionada y numerosos títulos nacionales e internacionales.
+Me parece un tema interesante para mostrar información sobre el club, sus jugadores, sus partidos y sus logros.
+También es una buena forma de combinar mi pasión por el fútbol con el diseño y la creación de páginas web..\]
 
 ## 💬 Palabra del día
 
