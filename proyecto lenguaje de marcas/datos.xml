@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Catálogo de los principales trofeos del Sevilla FC -->
+
+<catalogo propietario="David89787">
+
+  <trofeo id="T01">
+    <nombre>Uefa europa league</nombre>
+    <cantidad unidad="titulos">7.0</cantidad>
+    
+    <descripcion>El sevilla es el maximo campeon de la europa league</descripcion>
+    <destacado/>
+  </trofeo>
+
+  <trofeo id="T02">
+    <nombre>copa del rey</nombre>
+    <cantidad unidad="titulos">5.0</cantidad>
+
+    <descripcion>El sevilla es el maximo ganador de la copa del rey en Andalucia</descripcion>
+    <destacado/>
+  </trofeo>
+
+  <trofeo id="T03">
+    <nombre>Laliga</nombre>
+    <cantidad unidad="titulos">1.0</cantidad>
+    
+    <descripcion>El sevilla forma parte de los equipos mas exitosos de la liga respecto a posiciones</descripcion>
+    <destacado/>
+  </trofeo>
+
+</catalogo>
