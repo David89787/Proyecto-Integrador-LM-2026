@@ -42,3 +42,16 @@ En esta primera entrega he creado la estructura inicial de la carpeta `proyecto/
 | trofeos.html | Trofeos \| Sevilla FC | Los 3 trofeos de datos.xml con su cantidad y descripción |
 | historia.html | Historia \| Sevilla FC | Fundación en 1890 y títulos nacionales y europeos |
 | estadio.html | Estadio \| Sevilla FC | Datos del estadio Ramón Sánchez-Pizjuán |
+
+### Errores del validador
+
+| Página | Errores | Cómo los corregí |
+|---|---|---|
+| index.html | 0 | Sin errores |
+| trofeos.html | 0 | Sin errores |
+| historia.html | 0 | Sin errores |
+| estadio.html | 0 | Sin errores |
+
+### Qué he hecho en esta unidad
+
+He mejorado mi portada con cabecera completa, títulos, bloques div comentados, cita, texto preformateado y entidades. Después diseñé el mapa del sitio y creé las páginas trofeos, historia y estadio con la misma estructura. Por último validé todas las páginas en el W3C, aunque no tenia que ser necesario porque ya había corregido anteriormente los errores que tenía.
