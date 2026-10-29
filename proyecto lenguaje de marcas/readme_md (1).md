@@ -10,7 +10,7 @@
 
 * **Usuario de GitHub:** [David89787](https://github.com/David89787)
 
-* **Palabra del día**: meta
+* **Palabra del día**: contexto
 
 ## 📌 Tema del proyecto
 
@@ -23,9 +23,6 @@ Además, cuenta con una afición apasionada y numerosos títulos nacionales e in
 Me parece un tema interesante para mostrar información sobre el club, sus jugadores, sus partidos y sus logros.
 También es una buena forma de combinar mi pasión por el fútbol con el diseño y la creación de páginas web..\]
 
-## 💬 Palabra del día
-
-* **Palabra dictada por la docente:** \[Escribe aquí la palabra del día dictada en clase\]
 
 ## 📝 Qué he hecho en esta entrega
 
