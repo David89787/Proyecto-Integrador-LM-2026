@@ -33,3 +33,12 @@ En esta primera entrega he creado la estructura inicial de la carpeta `proyecto/
 -Cabecera completa (metadatos, viewport, description, keywords y author)
 -Jerarquía de títulos sin saltos (h1, h2, h3) y bloques div comentados
 -Blockquote, pre y entidades
+
+## Mapa del sitio
+
+| Fichero | title | Qué contiene |
+|---|---|---|
+| index.html | Inicio \| Sevilla FC | Portada: presentación, escudo, trofeos, opinión y ficha del club |
+| trofeos.html | Trofeos \| Sevilla FC | Los 3 trofeos de datos.xml con su cantidad y descripción |
+| historia.html | Historia \| Sevilla FC | Fundación en 1890 y títulos nacionales y europeos |
+| estadio.html | Estadio \| Sevilla FC | Datos del estadio Ramón Sánchez-Pizjuán |
