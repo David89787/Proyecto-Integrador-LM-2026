@@ -10,7 +10,7 @@
 
 * **Usuario de GitHub:** [David89787](https://github.com/David89787)
 
-* **Palabra del día**: contexto
+* **Palabra del día**: día
 
 ## 📌 Tema del proyecto
 
