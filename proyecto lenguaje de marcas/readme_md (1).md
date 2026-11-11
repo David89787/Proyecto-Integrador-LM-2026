@@ -42,7 +42,7 @@ En esta primera entrega he creado la estructura inicial de la carpeta `proyecto/
 | trofeos.html | Trofeos \| Sevilla FC | Los 3 trofeos de datos.xml con su cantidad y descripción |
 | historia.html | Historia \| Sevilla FC | Fundación en 1890 y títulos nacionales y europeos |
 | estadio.html | Estadio \| Sevilla FC | Datos del estadio Ramón Sánchez-Pizjuán |
-
+- contacto.html: formulario de contacto para los aficionados del Sevilla FC.
 ### Errores del validador
 
 | Página | Errores | Cómo los corregí |
