@@ -54,7 +54,68 @@
         </p>
 
       </fieldset>
+             <fieldset>
+        <legend>Tu consulta</legend>
 
+        <p>
+          <label for="motivo">Motivo del contacto:</label>
+          <select id="motivo" name="motivo" required>
+            <option value="" selected>Selecciona un motivo</option>
+            <option value="informacion">Solicitar información</option>
+            <option value="historia">Consultar sobre la historia</option>
+            <option value="trofeos">Consultar sobre los trofeos</option>
+            <option value="estadio">Consultar sobre el estadio</option>
+          </select>
+        </p>
+
+        <p>¿Qué temas del Sevilla FC te interesan?</p>
+
+        <p>
+          <input type="checkbox" id="europa" name="intereses" value="europa" checked>
+          <label for="europa">UEFA Europa League</label>
+        </p>
+
+        <p>
+          <input type="checkbox" id="copadelrey" name="intereses" value="copadelrey">
+          <label for="copadelrey">Copa del Rey</label>
+        </p>
+
+        <p>
+          <input type="checkbox" id="estadio" name="intereses" value="estadio">
+          <label for="estadio">Estadio Ramón Sánchez-Pizjuán</label>
+        </p>
+
+        <p>¿Cómo prefieres recibir una respuesta?</p>
+
+        <p>
+          <input type="radio" id="respuestaemail" name="respuesta" value="email" required>
+          <label for="respuestaemail">Por correo electrónico</label>
+        </p>
+
+        <p>
+          <input type="radio" id="respuestatelefono" name="respuesta" value="telefono">
+          <label for="respuestatelefono">Por teléfono</label>
+        </p>
+
+        <p>
+          <input type="radio" id="respuestano" name="respuesta" value="ninguna">
+          <label for="respuestano">No necesito respuesta</label>
+        </p>
+
+        <p>
+          <label for="mensaje">Escribe tu mensaje:</label>
+          <textarea id="mensaje" name="mensaje"
+            rows="6" cols="40"
+            placeholder="Escribe aquí tu consulta sobre el Sevilla FC..."
+            maxlength="500" required></textarea>
+        </p>
+
+        <p>
+          <button type="submit" name="enviar" value="enviar">Enviar formulario</button>
+          <button type="reset" name="restablecer" value="restablecer">Borrar formulario</button>
+        </p>
+
+      </fieldset>
     </form>
   </div>
 
