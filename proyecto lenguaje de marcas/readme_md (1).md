@@ -59,3 +59,8 @@ He mejorado mi portada con cabecera completa, títulos, bloques div comentados, 
 ### Tablas y formularios
 
 En la tabla voy a mostrar los principales títulos del Sevilla FC, incluyendo la competición y el número de títulos conseguidos, en la página trofeos.html. El formulario servirá para que los aficionados puedan ponerse en contacto conmigo y realizar consultas relacionadas con el Sevilla FC.
+
+### Prueba del método GET
+
+URL obtenida durante la prueba:
+file:///C:/Users/inman/Proyecto-Integrador-LM-2026/proyecto%20lenguaje%20de%20marcas/contacto.html?nombre=David&apellidos=Buz%C3%B3n+Nogales&correo=blablabla%40gmail.com&telefono=600123456&motivo=informacion&intereses=europa&respuesta=email&mensaje=blablablablabla&enviar=enviar#
