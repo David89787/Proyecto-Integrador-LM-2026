@@ -24,6 +24,36 @@
     <p>Rellena el siguiente formulario para enviarnos tu consulta.</p>
 
     <form action="#" method="post">
+              <fieldset>
+        <legend>Tus datos personales</legend>
+
+        <p>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre"
+            placeholder="Escribe tu nombre"
+            maxlength="40" required autofocus>
+        </p>
+
+        <p>
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" id="apellidos" name="apellidos"
+            placeholder="Escribe tus apellidos"
+            minlength="2" maxlength="60" required>
+        </p>
+
+        <p>
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo"
+            placeholder="ejemplo@gmail.com" required>
+        </p>
+
+        <p>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono"
+            placeholder="Ejemplo: 600123456">
+        </p>
+
+      </fieldset>
 
     </form>
   </div>
