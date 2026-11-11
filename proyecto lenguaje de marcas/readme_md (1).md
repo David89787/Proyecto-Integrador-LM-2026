@@ -55,3 +55,7 @@ En esta primera entrega he creado la estructura inicial de la carpeta `proyecto/
 ### Qué he hecho en esta unidad
 
 He mejorado mi portada con cabecera completa, títulos, bloques div comentados, cita, texto preformateado y entidades. Después diseñé el mapa del sitio y creé las páginas trofeos, historia y estadio con la misma estructura. Por último validé todas las páginas en el W3C, aunque no tenia que ser necesario porque ya había corregido anteriormente los errores que tenía.
+
+### Tablas y formularios
+
+En la tabla voy a mostrar los principales títulos del Sevilla FC, incluyendo la competición y el número de títulos conseguidos, en la página trofeos.html. El formulario servirá para que los aficionados puedan ponerse en contacto conmigo y realizar consultas relacionadas con el Sevilla FC.
