@@ -76,3 +76,6 @@ thead, tbody y tfoot. También he utilizado colspan, rowspan y colgroup.
 He creado un formulario de contacto con diferentes tipos de controles,
 fieldset y legend. Por último, he aprendido a validar mis páginas con
 W3C y a gestionar los cambios mediante Git y GitHub.
+## Tarea 6-7
+
+Con esta tarea he aprendido a utilizar mejor las etiquetas semánticas de HTML5, mejorar formularios, incorporar contenido multimedia y crear hojas de estilos externas con CSS. También he seguido practicando el uso de Git y GitHub para gestionar las versiones de mi proyecto.
