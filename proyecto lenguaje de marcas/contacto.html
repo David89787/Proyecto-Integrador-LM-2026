@@ -6,126 +6,167 @@
   <title>Contacto | Sevilla FC</title>
   <meta name="description" content="Contacta con nuestra web dedicada al Sevilla FC.">
   <meta name="keywords" content="Sevilla FC, contacto, aficionados, fútbol">
-  <meta name="author" content="David Buzón">
+  <meta name="author" content="david89787">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
 
   <!-- Cabecera -->
-  <div>
+  <header>
     <h1>Contacta con nosotros</h1>
     <p>¿Eres sevillista? Escríbenos y comparte tu pasión por el Sevilla FC.</p>
-  </div>
 
-  <hr>
+    <!-- Menú de navegación -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="trofeos.html">Trofeos</a></li>
+        <li><a href="estadio.html">Estadio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Formulario de contacto -->
-  <div>
-    <h2>Formulario de contacto</h2>
-    <p>Rellena el siguiente formulario para enviarnos tu consulta.</p>
+  <!-- Contenido principal -->
+  <main>
 
-    <form action="#" method="post">
-              <fieldset>
-        <legend>Tus datos personales</legend>
+    <section>
+      <h2>Formulario de contacto</h2>
+      <p>Rellena los siguientes campos para enviarnos tu consulta.</p>
+
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Tus datos personales</legend>
+
+          <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"
+              placeholder="Escribe tu nombre"
+              maxlength="40" required>
+          </p>
+
+          <p>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos"
+              placeholder="Escribe tus apellidos"
+              minlength="2" maxlength="60" required>
+          </p>
+
+          <p>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo"
+              placeholder="ejemplo@gmail.com" required>
+          </p>
+
+          <p>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"
+              placeholder="600123456"
+              pattern="[0-9]{9}"
+              title="Introduce un teléfono español de 9 cifras."
+              required>
+          </p>
+
+          <p>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha"
+              min="1900-01-01" max="2026-12-31" required>
+          </p>
+
+          <p>
+            <label for="codigo">Código postal:</label>
+            <input type="text" id="codigo" name="codigo"
+              placeholder="41001"
+              pattern="[0-9]{5}"
+              title="Introduce un código postal de 5 números."
+              required>
+          </p>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Tus preferencias sevillistas</legend>
+
+          <p>
+            <label for="camisetas">¿Cuántas camisetas del Sevilla tienes?</label>
+            <input type="number" id="camisetas" name="camisetas"
+              min="0" max="100" step="1"
+              placeholder="Ejemplo: 3" required>
+          </p>
+
+          <p>
+            <label for="hora">¿A qué hora prefieres que te contactemos?</label>
+            <input type="time" id="hora" name="hora"
+              min="09:00" max="21:00" step="900" required>
+          </p>
+
+          <p>
+            <label for="aficion">Valora tu nivel de afición del 1 al 10:</label>
+            <input type="range" id="aficion" name="aficion"
+              min="1" max="10" step="1" value="10">
+          </p>
+
+          <p>
+            <label for="color">¿Cuál es tu color favorito?</label>
+            <input type="color" id="color" name="color" value="#ffffff">
+          </p>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Tu consulta</legend>
+
+          <p>
+            <label for="motivo">Motivo del contacto:</label>
+            <select id="motivo" name="motivo" required>
+              <option value="" selected>Selecciona un motivo</option>
+              <option value="informacion">Solicitar información</option>
+              <option value="historia">Consultar sobre la historia</option>
+              <option value="trofeos">Consultar sobre los trofeos</option>
+              <option value="estadio">Consultar sobre el estadio</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="mensaje">Escribe tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje"
+              rows="6" cols="40"
+              placeholder="Escribe aquí tu consulta sobre el Sevilla FC..."
+              maxlength="500" required></textarea>
+          </p>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Avance del formulario</legend>
+          <p>Progreso de ejemplo del formulario:</p>
+          <progress id="avance" value="75" max="100">75%</progress>
+          <p>75 % completado como ejemplo.</p>
+        </fieldset>
 
         <p>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre"
-            placeholder="Escribe tu nombre"
-            maxlength="40" required autofocus>
+          <button type="submit" name="enviar" value="enviar">
+            Enviar formulario
+          </button>
+
+          <button type="reset">
+            Borrar formulario
+          </button>
         </p>
 
-        <p>
-          <label for="apellidos">Apellidos:</label>
-          <input type="text" id="apellidos" name="apellidos"
-            placeholder="Escribe tus apellidos"
-            minlength="2" maxlength="60" required>
-        </p>
+      </form>
+    </section>
 
-        <p>
-          <label for="correo">Correo electrónico:</label>
-          <input type="email" id="correo" name="correo"
-            placeholder="ejemplo@gmail.com" required>
-        </p>
-
-        <p>
-          <label for="telefono">Teléfono:</label>
-          <input type="tel" id="telefono" name="telefono"
-            placeholder="Ejemplo: 600123456">
-        </p>
-
-      </fieldset>
-             <fieldset>
-        <legend>Tu consulta</legend>
-
-        <p>
-          <label for="motivo">Motivo del contacto:</label>
-          <select id="motivo" name="motivo" required>
-            <option value="" selected>Selecciona un motivo</option>
-            <option value="informacion">Solicitar información</option>
-            <option value="historia">Consultar sobre la historia</option>
-            <option value="trofeos">Consultar sobre los trofeos</option>
-            <option value="estadio">Consultar sobre el estadio</option>
-          </select>
-        </p>
-
-        <p>¿Qué temas del Sevilla FC te interesan?</p>
-
-        <p>
-          <input type="checkbox" id="europa" name="intereses" value="europa" checked>
-          <label for="europa">UEFA Europa League</label>
-        </p>
-
-        <p>
-          <input type="checkbox" id="copadelrey" name="intereses" value="copadelrey">
-          <label for="copadelrey">Copa del Rey</label>
-        </p>
-
-        <p>
-          <input type="checkbox" id="estadio" name="intereses" value="estadio">
-          <label for="estadio">Estadio Ramón Sánchez-Pizjuán</label>
-        </p>
-
-        <p>¿Cómo prefieres recibir una respuesta?</p>
-
-        <p>
-          <input type="radio" id="respuestaemail" name="respuesta" value="email" required>
-          <label for="respuestaemail">Por correo electrónico</label>
-        </p>
-
-        <p>
-          <input type="radio" id="respuestatelefono" name="respuesta" value="telefono">
-          <label for="respuestatelefono">Por teléfono</label>
-        </p>
-
-        <p>
-          <input type="radio" id="respuestano" name="respuesta" value="ninguna">
-          <label for="respuestano">No necesito respuesta</label>
-        </p>
-
-        <p>
-          <label for="mensaje">Escribe tu mensaje:</label>
-          <textarea id="mensaje" name="mensaje"
-            rows="6" cols="40"
-            placeholder="Escribe aquí tu consulta sobre el Sevilla FC..."
-            maxlength="500" required></textarea>
-        </p>
-
-        <p>
-          <button type="submit" name="enviar" value="enviar">Enviar formulario</button>
-          <button type="reset" name="restablecer" value="restablecer">Borrar formulario</button>
-        </p>
-
-      </fieldset>
-    </form>
-  </div>
-
-  <hr>
+  </main>
 
   <!-- Pie de página -->
-  <div>
-    <p>&copy; 2026 David Buzón</p>
+  <footer>
+    <p id="firma-david89787">© 2026 david89787</p>
     <p>Proyecto de Lenguajes de Marcas, 1.º DAM.</p>
-  </div>
+  </footer>
 
 </body>
 </html>
