@@ -64,3 +64,15 @@ En la tabla voy a mostrar los principales títulos del Sevilla FC, incluyendo la
 
 URL obtenida durante la prueba:
 file:///C:/Users/inman/Proyecto-Integrador-LM-2026/proyecto%20lenguaje%20de%20marcas/contacto.html?nombre=David&apellidos=Buz%C3%B3n+Nogales&correo=blablabla%40gmail.com&telefono=600123456&motivo=informacion&intereses=europa&respuesta=email&mensaje=blablablablabla&enviar=enviar#
+
+-Utilizo el método POST porque permite enviar los datos del formulario en el cuerpo de la petición HTTP, en lugar de mostrarlos en la URL como ocurre con GET. Es más adecuado para enviar consultas y datos de contacto.
+
+-Las dos páginas se han validado correctamente y no han presentado errores.
+
+### Qué he hecho en esta unidad
+
+En esta unidad he aprendido a crear tablas HTML utilizando caption,
+thead, tbody y tfoot. También he utilizado colspan, rowspan y colgroup.
+He creado un formulario de contacto con diferentes tipos de controles,
+fieldset y legend. Por último, he aprendido a validar mis páginas con
+W3C y a gestionar los cambios mediante Git y GitHub.

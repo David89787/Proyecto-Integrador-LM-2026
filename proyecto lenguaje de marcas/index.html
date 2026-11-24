@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,118 +7,147 @@
   <title>Inicio | Sevilla FC</title>
   <meta name="description" content="Web sobre el Sevilla FC: su historia, su palmarés y su estadio.">
   <meta name="keywords" content="Sevilla FC, fútbol, Europa League, Copa del Rey, palmarés">
-  <meta name="author" content="David Buzón">
+  <meta name="author" content="david89787">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-  <!-- Autor: David Buzón -->
 
-  
-  <div>
+<body>
+
+  <!-- Cabecera principal -->
+  <header>
     <h1>Palmarés del Sevilla FC</h1>
     <p>Bienvenido a mi web sobre uno de los equipos más históricos de España.</p>
-  </div>
 
-  <hr>
+    <!-- Menú de navegación -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="trofeos.html">Trofeos</a></li>
+        <li><a href="estadio.html">Estadio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!--  sobre el club -->
-  <div>
-    <h2>Sobre el club</h2>
+  <!-- Contenido principal -->
+  <main>
 
-    <div>
-      <h3>Historia breve</h3>
-      <p>
-        El Sevilla es un club de fútbol fundado en 1890 y, a lo largo de su
-        historia, ha logrado importantes títulos. Su trayectoria europea
-        destaca por sus victorias en la <strong>UEFA Europa League</strong>.
-      </p>
-      <p>
-        En esta web se recogen los principales trofeos del equipo, para conocer
-        la historia de uno de los clubes más históricos de España e incluso del
-        mundo.
-      </p>
-    </div>
+    <!-- Primera sección: información del club -->
+    <section>
+      <h2>Sobre el club</h2>
 
-    
-    <div>
-      <h3>El escudo</h3>
-      <p>Así es el escudo del club:</p>
-      <img src="img/Escudosevilla.jpg" alt="Escudo del Sevilla FC" width="400">
-    </div>
-  </div>
+      <article>
+        <h3>Historia breve</h3>
+        <p>
+          El Sevilla es un club de fútbol fundado en 1890 y, a lo largo de su
+          historia, ha logrado importantes títulos. Su trayectoria europea
+          destaca por sus victorias en la <strong>UEFA Europa League</strong>.
+        </p>
+        <p>
+          En esta web se recogen los principales trofeos del equipo, para conocer
+          la historia de uno de los clubes más históricos de España e incluso del mundo.
+        </p>
+      </article>
 
-  <hr>
+      <article>
+        <h3>El escudo</h3>
+        <p>Así es el escudo del club:</p>
+        <figure>
+          <img src="img/Escudosevilla.jpg" alt="Escudo del Sevilla FC" width="400">
+          <figcaption>Escudo oficial del Sevilla Fútbol Club.</figcaption>
+        </figure>
+      </article>
+    </section>
 
-  <!-- trofeos destacados -->
-  <div>
-    <h2>Trofeos destacados</h2>
-    <ul>
-      <li>
-        UEFA Europa League: 7 títulos.
-        <img src="img/uefa.jpg" alt="Trofeo de la Europa League" width="100">
-      </li>
-      <li>
-        Copa del Rey: 5 títulos.
-        <img src="img/copadelrey.jpg" alt="Trofeo de la Copa del Rey" width="150">
-      </li>
-      <li>
-        Campeonato de Liga: 1 título.
-        <img src="img/liga.jpg" alt="Trofeo de la Liga" width="200">
-      </li>
-    </ul>
-  </div>
+    <!-- Segunda sección: trofeos -->
+    <section>
+      <h2>Trofeos destacados</h2>
 
-  <hr>
-  <!--  opinión -->
-  <div>
-    <h2>Opinión de un aficionado</h2>
-    <blockquote>
-      <p>Ser del Sevilla es sentir cada partido como si fuera una final.</p>
-      <p>Siete Europa League no se consiguen por casualidad&#33;</p>
-    </blockquote>
-    <p>Opinión de David Buzón, aficionado del Sevilla FC.</p>
-  </div>
+      <article>
+        <h3>UEFA Europa League</h3>
+        <p>El Sevilla FC ha conseguido 7 títulos de la UEFA Europa League.</p>
+        <figure>
+          <img src="img/uefa.jpg" alt="Trofeo de la UEFA Europa League" width="100">
+          <figcaption>Trofeo de la UEFA Europa League.</figcaption>
+        </figure>
+      </article>
 
-  <hr>
+      <article>
+        <h3>Copa del Rey</h3>
+        <p>El Sevilla FC ha ganado 5 Copas del Rey.</p>
+        <figure>
+          <img src="img/copadelrey.jpg" alt="Trofeo de la Copa del Rey" width="150">
+          <figcaption>Trofeo de la Copa del Rey.</figcaption>
+        </figure>
+      </article>
 
-  <!--  ficha de datos -->
-  <div>
-    <h2>Ficha del club</h2>
-    <p>Datos básicos del Sevilla FC:</p>
-<pre>
+      <article>
+        <h3>Campeonato de Liga</h3>
+        <p>El Sevilla FC ha conseguido 1 título de Liga.</p>
+        <figure>
+          <img src="img/liga.jpg" alt="Trofeo del Campeonato de Liga" width="200">
+          <figcaption>Trofeo del Campeonato de Liga.</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <!-- Tercera sección: opinión -->
+    <section>
+      <h2>Opinión de un aficionado</h2>
+      <blockquote>
+        <p>Ser del Sevilla es sentir cada partido como si fuera una final.</p>
+        <p>¡Siete Europa League no se consiguen por casualidad!</p>
+      </blockquote>
+      <p>Opinión de David Buzón, aficionado del Sevilla FC.</p>
+    </section>
+
+    <!-- ficha del club -->
+    <section>
+      <h2>Ficha del club</h2>
+      <p>Datos básicos del Sevilla FC:</p>
+
+      <pre>
 Nombre oficial : Sevilla Fútbol Club
 Fundación      : 1890
 Estadio        : Ramón Sánchez-Pizjuán
 Colores        : blanco y rojo
 Web oficial    : sevillafc.es
-</pre>
-  </div>
+      </pre>
+    </section>
 
-  <hr>
-  <!--  más información -->
-  <div>
-    <h2>Más información</h2>
-    <p>
-      Puedes consultar el palmarés y las noticias del equipo en la
-      <a href="https://sevillafc.es/" title="Página web oficial del Sevilla FC">web oficial del Sevilla FC</a>.
+    <!-- Información complementaria -->
+    <aside>
+      <h2>Más información</h2>
+
       <p>
-      Si quieres contactar conmigo o realizar alguna consulta sobre el Sevilla FC,
-       visita nuestra <a href="contacto.html">página de contacto</a>.
-</p>
-    </p>
-        <p>
-      También puedes mirar el proyecto XML en el archivo
-      <a href="datos.xml">datos.xml</a>, donde cada trofeo se escribe entre
-      las etiquetas &lt;trofeo&gt; y &lt;/trofeo&gt;.
-    </p>
-    <p>Pasión &amp; historia: eso es el Sevilla.</p>
-  </div>
+        Puedes consultar el palmarés y las noticias del equipo en la
+        <a href="https://sevillafc.es/" title="Página web oficial del Sevilla FC">
+          web oficial del Sevilla FC
+        </a>.
+      </p>
 
-  <hr>
+      <p>
+        Si quieres contactar conmigo o realizar alguna consulta sobre el Sevilla FC,
+        visita nuestra <a href="contacto.html">página de contacto</a>.
+      </p>
+
+      <p>
+        También puedes consultar el proyecto XML en el archivo
+        <a href="datos.xml">datos.xml</a>, donde cada trofeo se escribe entre
+        las etiquetas &lt;trofeo&gt; y &lt;/trofeo&gt;.
+      </p>
+
+      <p>Pasión &amp; historia: eso es el Sevilla.</p>
+    </aside>
+
+  </main>
 
   <!-- Pie de página -->
-  <div>
-    <p>&copy; 2026 David Buzón</p>
+  <footer>
+    <p id="firma-david89787">© 2026 david89787</p>
     <p>Proyecto de Lenguajes de Marcas, 1.º DAM.</p>
-  </div>
+  </footer>
+
 </body>
 </html>
