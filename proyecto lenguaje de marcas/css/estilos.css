@@ -1,0 +1,217 @@
+
+/* ESTILOS GENERALES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  color: #222222;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* CABECERA */
+header {
+  background-color: #d71920;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+/* MENU DE NAVEGACION */
+nav {
+  background-color: #222222;
+  padding: 12px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcccc;
+  text-decoration: underline;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+  max-width: 1100px;
+  margin: 25px auto;
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px #cccccc;
+}
+
+article {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+h2 {
+  color: #c8102e;
+  border-bottom: 2px solid #c8102e;
+  padding-bottom: 8px;
+}
+
+/* INFORMACION SECUNDARIA */
+aside {
+  background-color: #eeeeee;
+  border-left: 5px solid #d71920;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+/* IMAGENES */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  color: #555555;
+  margin-top: 8px;
+}
+
+/* TABLAS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #d71920;
+  color: white;
+}
+
+/* FORMULARIOS */
+input, select, textarea {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+fieldset {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+legend {
+  color: #c8102e;
+  font-weight: bold;
+}
+
+button {
+  background-color: #d71920;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #a50f16;
+}
+
+/* VIDEO */
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* PREGUNTAS FRECUENTES */
+details {
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #c8102e;
+}
+
+/* PIE DE PAGINA */
+footer {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+/* DISEÑO PARA MOVILES */
+@media (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+}
