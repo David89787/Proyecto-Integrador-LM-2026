@@ -249,3 +249,37 @@ button:focus {
   font-weight: bold;
   letter-spacing: 1px;
 }
+/* EFECTOS VISUALES ADICIONALES */
+
+article {
+  border-bottom: 2px solid #eeeeee;
+  transition: background-color 0.3s;
+}
+
+article:hover {
+  background-color: #fff5f5;
+}
+
+a {
+  color: #c8102e;
+}
+
+a:hover {
+  color: #85000b;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #c8102e;
+}
+
+button:focus {
+  outline: 2px solid #222222;
+  outline-offset: 3px;
+}
+
+#firma-david89787 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
